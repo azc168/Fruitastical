@@ -4,7 +4,7 @@ body {
 
 .fullgrid {
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 4fr 1.5fr 3fr;
 }
 
@@ -123,14 +123,8 @@ h4 {
     margin-top: 25px;
 }
 
-.bulkbuygrid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 0.5fr 3fr 3fr 3fr;
-}
-
 .header {
-    grid-column: 1/3;
+    grid-column: 1/4;
     grid-row: 1/2;
 }
 
