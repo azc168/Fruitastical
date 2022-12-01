@@ -27,6 +27,7 @@ p {
     color: red;
     font-family: 'Comfortaa', cursive;
     margin-top: 10px;
+    font-size:medium;
 }
 
 .text {
@@ -44,12 +45,18 @@ h4 {
     text-align: center;
 }
 
+.card-header {
+    font-family: 'Comfortaa', cursive;
+    font-size: large !important;
+}
+
 .btn-primary {
     background-color: #fbd341 !important;
     color: black !important;
     border: 0 !important;
     border-radius: 50% !important;
     font-family: 'Comfortaa', cursive !important;
+    font-size: smaller !important;
 }
 
 .card-header {
