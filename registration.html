@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&family=Modak&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="selling-styles.css">
+    <title>Fruitastical - Vendor Registration</title>
+</head>
+<body>
+    <header>
+        <img class="logo-image" src="img/logo.png" alt="logo image">
+        <h1>Fruitastical</h1>  
+        <!-- HAMBURGER MENU FOR MOBILE -->
+        <!-- we will need to set this div to display: none in the media query for desktop -->
+        <!-- so we can replace it with the navigation menu for desktop -->
+        <div id="mySidenav" class="sidenav">
+            <a class="nav-item closebtn" href="javascript:void(0)" onclick="closeNav()">&times;</a>
+            <div class="nav-item-container">
+                <a href="index.html"><img class="nav-logo" src="img/logo.png" alt="logo"></a>
+                <a class="nav-item website-name" href="index.html">Fruitastical</a>
+                <a class="nav-item" href="index.html">Home</a>
+                <a class="nav-item" href="#">something</a>
+                <a class="nav-item" href="#">something2</a>
+                <a class="nav-item" href="#">something3</a>
+                <a class="nav-item" href="#">something4</a>
+            </div>
+        </div>
+        
+        <!-- Use the three bars to open the menu -->
+        <span class="burger" onclick="openNav()"><i class="fa fa-bars fa-lg"></i></span>
+    </header>
+
+    <main>
+        <h1>Vendor Registration</h1>
+        <p>Please fill out this form so we can contact you with further details.</p>
+    </main>
+
+    <footer class="footer">
+        <div class="footertext">
+            Contact Us!<br>Email: fruits101@gmail.com<br>Phone: 919-123-4567
+        </div>
+        <button type="button" class="orange-button">Sell With Us</button>
+    </footer>
+
+    <!-- HAMBURGER MENU SCRIPT FROM W3SCHOOLS -->
+    <script> // hamburger
+        /* Set the width of the side navigation to 250px and the left margin of the page content to 250px */
+        function openNav() {document.getElementById("mySidenav").style.width = "100%";}
+
+        /* Set the width of the side navigation to 0 and the left margin of the page content to 0 */
+        function closeNav() {document.getElementById("mySidenav").style.width = "0";}
+    </script>
+</body>
+</html>

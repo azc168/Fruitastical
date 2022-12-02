@@ -21,15 +21,20 @@ header {
 }
 
 .logo-image {
-    max-height: 50px;
-    max-height: 50px;
+    max-height: 100px;
+    max-width: 100px;
+    margin-top: 4%;
 }
 
 h1 {
     font-family: 'Modak', cursive;
     text-align: center;
     letter-spacing: 1px;
-    padding-top: 4%;
+    padding-top: 2%;
+}
+
+header > h1 { /* fixes the logo image pushing the header away*/
+    margin-left: -9%;
 }
 
 .fruitimg {
