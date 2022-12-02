@@ -10,17 +10,31 @@ body {
     justify-content: center;
 }
 
+.card {
+    box-shadow: 0 0 10px 0 rgba(100, 100, 100, 0.50);
+    clip-path: inset(-0.5px -0.5px -16px -0.5px);
+}
 .header {
     grid-column: 1/3;
     grid-row: 1/2;
     background-color: #f1ffab;
     height: 70px;
-    box-shadow: 0 4px 2px -2px gray;
+    box-shadow: 0 0 8px 3px grey;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 3%; padding-right: 3%;
+    align-items: center;
 }
 
 h1 {
     font-family: 'Modak', cursive;
     text-align: center;
+}
+
+.heading {
+    text-align: center;
+    color: #E86100;
+    margin: 2rem;
 }
 
 p {

@@ -13,7 +13,7 @@ header {
     grid-row: 1/2;
     background-color: #f1ffab;
     height: 70px;
-    box-shadow: 0 4px 2px -2px gray;
+    box-shadow: 0 0 8px 3px grey;
     display: flex;
     justify-content: space-between;
     padding-left: 3%; padding-right: 3%;
